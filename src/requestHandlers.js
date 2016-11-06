@@ -6,7 +6,7 @@ var fs = require("fs");
 var formidable = require("formidable"); 
 
 // Log setup
-var log = bunyan.createLogger({name: 'requestHandler', streams: [{level: 'trace',stream: process.stdout}]});
+var log = bunyan.createLogger({name: 'requesthandler', streams: [{level: 'trace',stream: process.stdout}]});
 
 var exec = require("child_process").exec;
 
