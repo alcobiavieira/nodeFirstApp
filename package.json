@@ -1,0 +1,20 @@
+{
+  "name": "myfirstapp",
+  "version": "0.0.1",
+  "description": "My First Node App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "Begginer",
+    "App"
+  ],
+  "author": "João Vieira",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "1.8.4",
+    "formidable": "1.0.17"
+  }
+}
