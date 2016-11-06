@@ -1,5 +1,5 @@
 // Imports
-var cluster = require("cluster");
+var cluster = require("cluster"); // http://stackabuse.com/setting-up-a-node-js-cluster/
 var http = require("http");
 var url = require("url");
 var logger = require("./logger");
