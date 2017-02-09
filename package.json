@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
 		"start": "npm-run-all --parallel security-check open:src2 localtunnel",
 		"open:src": "node src/server/index.js | /Users/AXPVIJ/node_modules/bunyan/bin/bunyan -o short",
-		"open:src2": "babel-node buildScripts/srcServer.js",
+		"open:src2": "./node_modules/babel-cli/bin/babel-node.js buildScripts/srcServer.js",
 		"security-check": "nsp check",
 		"localtunnel": "lt --port 3000"
   },
